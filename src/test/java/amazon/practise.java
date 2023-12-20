@@ -38,6 +38,7 @@ public class practise {
 		List<WebElement> results = driver.findElements(By.xpath(
 				"//div[@class=\"s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 AdHolder sg-col s-widget-spacing-small sg-col-12-of-16\"]"));
 		System.out.println(results.size());
+		System.out.println(results);
 		List<WebElement> moreResults = driver.findElements(By.xpath(
 				"//div[@class=\"s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col s-widget-spacing-small sg-col-12-of-16\"]"));
 		System.out.println(moreResults.size());
